@@ -8,6 +8,9 @@ public class App {
         tea.add(new Tea("Грузинский черный", 40));
         tea.add(new Tea("Китайский зеленый", 250));
         tea.add(new Tea("Кенийский черный", 50));
+//        tea.add(new Tea("Кенийский черный", 50));
+
+//        List<App> appList = new List<>();
 
         System.out.println(tea.min()); // должен вывести: Чай: Грузинский черный Цена: 40.0
         System.out.println(tea.max()); // должен вывести: Чай: Китайский зеленый Цена: 250.0
